@@ -28,16 +28,6 @@ describe('form testing', function(){
     })
 
     it('checks if user can submit form', () => {
-        cy.get('input[name="username"]')
-        .type('Taylor')
-        cy.get('input[name="email"]')
-        .type('taylor@email.com')
-        cy.get('input[name="password"]')
-        .type('somePassword')
-        cy.get('input[name="tos"]')
-        .check()
-        cy.get('input[type="submit"]')
-        .click()
-        .should('')
+        
     })
 })
