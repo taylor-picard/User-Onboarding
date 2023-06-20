@@ -27,7 +27,4 @@ describe('form testing', function(){
         .should('be.checked')
     })
 
-    it('checks if user can submit form', () => {
-        
-    })
 })
